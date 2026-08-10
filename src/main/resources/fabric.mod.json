@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "perpetuate",
+	"version": "${version}",
+	"name": "Perpetuate The Cycle",
+	"description": "Even moss drinks water. Perpetuate the cycle of life?",
+	"authors": [
+		"flingus"
+	],
+	"contact": {
+		"sources": "https://github.com/flngus0/PerpetuateTheCycle"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/perpetuate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"flingus.perpetuate.PerpetuateTheCycle"
+		]
+	},
+    "mixins": [
+        "perpetuate.mixins.json"
+    ],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

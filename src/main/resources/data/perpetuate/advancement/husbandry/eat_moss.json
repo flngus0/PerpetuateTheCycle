@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "advancement.perpetuate.eat_moss"
+    },
+    "description": {
+      "translate": "advancement.perpetuate.eat_moss.description"
+    }
+  },
+  "criteria": {
+    "eat_moss": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:moss_block",
+            "minecraft:pale_moss_block"
+          ]
+        }
+      }
+    }
+  }
+}
